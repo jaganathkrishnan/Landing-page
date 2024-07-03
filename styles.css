@@ -1,0 +1,111 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: black;
+    margin: 0;
+}
+
+.headercontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.hero {
+    display: flex; /* Use flexbox to align items */
+    justify-content: space-between; /* Ensure space between items */
+    align-items: center; /* Center items vertically */
+    margin-left: 200px; /* Adjust margin as needed */
+    padding: 20px; /* Optional: Add padding for spacing */
+}
+
+.text {
+    max-width: 50%; /* Limit text width */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer; 
+    color: white;
+    border-radius: 20px;
+}
+
+nav ul li button:hover {
+    background-color: grey;
+}
+
+input[type="text"] {
+    width: 100%; /* Full width input fields */
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: rgb(9, 9, 9);
+    background-color: white;
+    margin-bottom: 10px; /* Optional: Adjust spacing between inputs */
+}
+
+button[type="submit"] {
+    width: 100%; /* Full width button */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    color: rgb(9, 9, 9);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: grey;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96px;
+    font-size: 10px;
+}
+
+.hero img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.image {
+    margin-right: 300px;
+    width: 500px; 
+    height: 1000px; 
+}
+.hero {
+    margin: 100px;
+}
+.text {
+    font-size: 28px;
+}

@@ -1,1 +1,1 @@
-Making a basic landing page using HTML and CSS
+Making the landing page of Uber using basic html and css.
